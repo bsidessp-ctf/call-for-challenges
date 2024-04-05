@@ -57,4 +57,3 @@ R: Os desafios submetidos receberão uma pontuação substancialmente inferior �
 **P: Como será definida a pontuação do desafio?**
 
 R: A pontuação dos desafios aprovados será determinada pela equipe do evento. Cada desafio será avaliado com base em sua complexidade, originalidade e contribuição para a diversidade do CTF. A equipe do evento atribuirá uma pontuação adequada a cada desafio aprovado, levando em consideração diversos fatores.
-# call-for-challenges
