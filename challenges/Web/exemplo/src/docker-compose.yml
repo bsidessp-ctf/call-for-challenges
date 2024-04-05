@@ -1,0 +1,22 @@
+version: "3.8"
+
+services:
+  app:
+    image: "nome_da_imagem"
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: any
+    ports:
+      - "3000:3000" # sua porta local deverá ser externalizada
+    networks:
+      - hackincariri 
+    healthcheck:
+      test: "curl -f http://localhost:3000/health || exit 1" # sua aplicação deverá retornar 200 nesse path 
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 20s
+networks:
+  hackincariri:
+    external: true
