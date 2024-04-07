@@ -22,6 +22,7 @@ Atualmente estamos aceitando submissão dos seguintes desafios, basta clicar no 
 - [Forense](./challenges/Forense/README.md)
 - [OSINT](./challenges/OSINT/README.md)
 - [Pwn](./challenges/Pwn/README.md)
+- [Criptografia](./challenges/Criptografia/README.md)
 
 ## Prazos
 
